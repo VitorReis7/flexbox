@@ -4,11 +4,16 @@ header{
     margin-bottom: 80px;
     gap: 30px;
     padding: 30px;
-    background-color: azure;
+    border-bottom: 2px solid black;
+    background-color: lightgray;
+}
+header a{
+    text-decoration-color: black;
 }
 .botao{
     padding: 20px 30px;
-    background-color: violet;
+    background-color: darkgray;
+    color: white;
     border: 2px solid grey;
     border-radius: 5px;
 }
@@ -62,4 +67,28 @@ header{
 }
 .f{
     background-color: #999999;
+}
+.l2-conteudo{
+
+}
+#l2{
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    display: flex;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.h20vh{
+    height: 20vh;
+}
+.h15vh{
+    height: 15vh;
+}
+.h35vh{
+    height: 35vh;
+}
+.h50vh{
+    height: 50vh;
 }
