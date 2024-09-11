@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    gap: 30px;
+    padding: 30px;
+    background-color: azure;
+}
+.botao{
+    padding: 20px 30px;
+    background-color: violet;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+}
+.cima{
+    display: flex;
+    flex: 2;
+    width: auto;
+    height: auto;
+}
+.rodape{
+    display: flex;
+    flex: 1;
+    width: auto;
+    height: auto;
+    background-color: #777777;
+}
+.lado{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    background-color: green;
+}
+.menu{
+    display: flex;
+    flex: 1;
+    background-color: #888888;
+}
+.cabecalho{
+    display: flex;
+    background-color: #bbbbbb;
+    flex: 1;
+}
+.artigos{
+    display: flex;
+    flex: 1;
+}
+.artigo{
+    display: flex;
+    flex: 1;
+    background-color: #aaaaaa;
+}
+.f{
+    background-color: #999999;
+}
